@@ -1,0 +1,1122 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0a133fe6-2f3f-4df2-ae8e-b3110103654b)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Custom-Capacitor:CL10B103KB8NNNC" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "10n" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Part Number" "CL10B103KB8NNNC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CL10B103KB8NNNC_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CL10B103KB8NNNC_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Custom-Capacitor:CL10B104KB8NNWC" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "100n" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Part Number" "CL10B104KB8NNWC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CL10B104KB8NNWC_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CL10B104KB8NNWC_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Custom-LogicIC:1G97" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "74LVC1G97" (at 0 -11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Nexperia USA Inc." (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Part Number" "74LVC1G97GW,125" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "IC GATE MULTIFUNCTION 6TSSOP" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "1G97_0_0"
+        (text "" (at -62.23 34.29 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "1G97_1_1"
+        (rectangle (start -7.62 10.16) (end 7.62 -10.16)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -10.16 0 0) (length 2.54)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -10.16 -7.62 0) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -10.16 2.54 0) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 10.16 2.54 180) (length 2.54)
+          (name "Y" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -10.16 7.62 0) (length 2.54)
+          (name "V_{DD}" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -10.16 -2.54 0) (length 2.54)
+          (name "C" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Custom-LogicIC:TestPoint" (in_bom no) (on_board yes)
+      (property "Reference" "TP" (at 2.54 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "-" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic Test Point Symbol " (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_1_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 0.508)
+          )
+          (stroke (width 0) (type default) (color 72 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 1.524)
+            (xy 0.254 0.762)
+          )
+          (stroke (width 0) (type default) (color 72 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.762 1.016)
+            (xy -0.254 0.508)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type color) (color 132 0 0 1))
+        )
+        (polyline
+          (pts
+            (xy -0.762 1.016)
+            (xy 0.508 2.286)
+            (xy 1.016 1.778)
+            (xy -0.254 0.508)
+            (xy -0.762 1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type color) (color 132 0 0 1))
+        )
+        (arc (start 1.778 2.286) (mid 1.2343 2.3019) (end 0.762 2.032)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 1.778 2.286) (mid 2.032 2.258) (end 2.286 2.286)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -2.54 0 0) (length 1.27)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "Custom-Resistor:RMCF0603FT1K50" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "1.5k" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 1.016 -0.254 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Stackpole Electronics Inc" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Part Number" "RMCF0603FT1K50" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "RMCF0603FT1K50_0_1"
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "RMCF0603FT1K50_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Custom-Resistor:RMCF0603ZT0R00" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0R" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 1.016 -0.254 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Stackpole Electronics Inc" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Part Number" "RMCF0603ZT0R00" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor jumper" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "RMCF0603ZT0R00_0_1"
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "RMCF0603ZT0R00_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 146.05 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid 7f033489-4f41-4ac5-b11d-540dc6c47300)
+  )
+  (junction (at 105.41 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid a2ce0b9c-d1b3-4034-853d-08e90f2ebd00)
+  )
+  (junction (at 132.08 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid be8cedb8-01c0-4ca5-bf71-056eb188328e)
+  )
+  (junction (at 132.08 96.52) (diameter 0) (color 0 0 0 0)
+    (uuid deb42a74-5135-4101-a599-989990d2119e)
+  )
+  (junction (at 182.88 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid e8b9e568-c20c-4b0d-9de4-db890b1c2635)
+  )
+
+  (wire (pts (xy 168.91 101.6) (xy 171.45 101.6))
+    (stroke (width 0) (type default))
+    (uuid 04b2d6a4-033a-469f-b016-c37fa04f6407)
+  )
+  (wire (pts (xy 184.15 100.33) (xy 186.69 100.33))
+    (stroke (width 0) (type default))
+    (uuid 06b81706-5f0a-4ec8-894e-807c4ea0a447)
+  )
+  (wire (pts (xy 132.08 123.19) (xy 132.08 129.54))
+    (stroke (width 0) (type default))
+    (uuid 09359ba4-dd65-4388-85d3-612b3d326cb5)
+  )
+  (wire (pts (xy 148.59 111.76) (xy 146.05 111.76))
+    (stroke (width 0) (type default))
+    (uuid 0a22803a-6a34-4905-ae11-e685435735bf)
+  )
+  (wire (pts (xy 105.41 129.54) (xy 132.08 129.54))
+    (stroke (width 0) (type default))
+    (uuid 0baf79d7-1b16-41ec-9720-01c859657ebe)
+  )
+  (wire (pts (xy 179.07 101.6) (xy 182.88 101.6))
+    (stroke (width 0) (type default))
+    (uuid 136f8da2-1897-4a28-b502-acc92dc71711)
+  )
+  (wire (pts (xy 86.36 129.54) (xy 105.41 129.54))
+    (stroke (width 0) (type default))
+    (uuid 2cd96545-9c98-4ba3-8673-95a315af770f)
+  )
+  (wire (pts (xy 86.36 106.68) (xy 91.44 106.68))
+    (stroke (width 0) (type default))
+    (uuid 355fb0fa-8225-4b24-9863-daed1f37ea61)
+  )
+  (wire (pts (xy 182.88 101.6) (xy 184.15 100.33))
+    (stroke (width 0) (type default))
+    (uuid 49e1bbb9-994a-45ee-8b88-bc84ec89f7f9)
+  )
+  (wire (pts (xy 86.36 101.6) (xy 91.44 101.6))
+    (stroke (width 0) (type default))
+    (uuid 513fde77-ef5e-4e5e-ad14-13f3a5a13fd3)
+  )
+  (wire (pts (xy 86.36 96.52) (xy 132.08 96.52))
+    (stroke (width 0) (type default))
+    (uuid 5ca2fae4-511d-4d92-a8cd-edb9f039191b)
+  )
+  (wire (pts (xy 132.08 96.52) (xy 132.08 118.11))
+    (stroke (width 0) (type default))
+    (uuid 806aa3e5-fa43-4c43-ae76-97c93103837c)
+  )
+  (wire (pts (xy 146.05 111.76) (xy 146.05 129.54))
+    (stroke (width 0) (type default))
+    (uuid 856fb0a6-ef9d-421c-b1b7-b9ebc3052eec)
+  )
+  (wire (pts (xy 99.06 106.68) (xy 148.59 106.68))
+    (stroke (width 0) (type default))
+    (uuid 9721e362-6878-4a64-bf56-6e0a46782b7d)
+  )
+  (wire (pts (xy 182.88 101.6) (xy 182.88 118.11))
+    (stroke (width 0) (type default))
+    (uuid aaa2c38e-3cf7-4f9c-9795-619a52d2d7fa)
+  )
+  (wire (pts (xy 132.08 96.52) (xy 148.59 96.52))
+    (stroke (width 0) (type default))
+    (uuid ac5f0791-258d-423f-8040-59804765d009)
+  )
+  (wire (pts (xy 105.41 124.46) (xy 105.41 129.54))
+    (stroke (width 0) (type default))
+    (uuid b6408f8a-5f68-4dea-a9b6-3b17338e7d84)
+  )
+  (wire (pts (xy 99.06 101.6) (xy 148.59 101.6))
+    (stroke (width 0) (type default))
+    (uuid ba1479d4-5acc-4acb-9438-ad4905f95674)
+  )
+  (wire (pts (xy 105.41 104.14) (xy 148.59 104.14))
+    (stroke (width 0) (type default))
+    (uuid bb55e5f3-48f5-4b71-87ca-3d3d7a8abecb)
+  )
+  (wire (pts (xy 105.41 104.14) (xy 105.41 116.84))
+    (stroke (width 0) (type default))
+    (uuid bb76b760-1a99-4d34-8739-e2b5e4653559)
+  )
+  (wire (pts (xy 132.08 129.54) (xy 146.05 129.54))
+    (stroke (width 0) (type default))
+    (uuid c5e07b41-1c55-47bd-b92d-47fd44b80593)
+  )
+  (wire (pts (xy 182.88 101.6) (xy 223.52 101.6))
+    (stroke (width 0) (type default))
+    (uuid ca18cac4-bfda-42e8-8d3a-cc9401c36d05)
+  )
+  (wire (pts (xy 182.88 123.19) (xy 182.88 129.54))
+    (stroke (width 0) (type default))
+    (uuid d7ce92c4-f7dc-455b-ade6-3da4e8f495f5)
+  )
+  (wire (pts (xy 182.88 129.54) (xy 146.05 129.54))
+    (stroke (width 0) (type default))
+    (uuid fdd9c99f-3202-4924-a036-037587587ea2)
+  )
+
+  (image (at 237.49 36.83) (scale 2.05665)
+    (uuid d3fa8eb1-9466-41a8-ba3a-f9ea0000114e)
+    (data
+      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
+      /hJkThlIAAAAAElFTkSuQmCC
+    )
+  )
+
+  (text_box "IMPORTANT NOTE: Instead of converting the \"valid\" PWM region to an analog voltage, I'm converting the \"INVALID\" region to an analog voltage.\n\nBoth of these transfer functions are nonlinear (have V_{servo} in the denominator). However, the PWM_INVALID signal has a small-signal gain that's strictly positive. This is preferable because implementing the controller in the analog domain is significantly easier for forward path transfer functions with positive gains.\n\n"
+    (at 88.9 54.61 0) (size 96.52 15.24)
+    (stroke (width 0) (type default) (color 0 0 127 1))
+    (fill (type color) (color 0 0 127 1))
+    (effects (font (size 1.27 1.27) (color 255 255 255 1)) (justify left top))
+    (uuid 61df6b45-f773-453f-b5f7-c8d6d87378c1)
+  )
+  (text_box "Depending on the peak-peak ramp voltage coming out of the ramp generator, PWM_MIN and PWM_MAX will be set to certain duty cycles.\n\nWe want to regulate the difference between the MIN and the MAX duty cycles --> this corresponds to a particular voltage magnitude of the ramp function.\n	NOTE: ramp voltage -> PWM delta is a monotonic function, i.e. every ramp voltage value corresponds to a unique PWM delta.\n\nIn order to implement this analog regulator, we'll first create a waveform representing the difference between the PWM waveforms using a multi-function logic gate. We'll then take the average value of this synthesized PWM waveform using an RC lowpass filter. This will yield us a voltage representing the difference bewteen the high and low PWM values"
+    (at 88.9 25.4 0) (size 96.52 26.67)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
+    (uuid 9710c3ea-859c-49ac-941d-634c05b16331)
+  )
+  (text_box "F_{C} = 10.6kHz"
+    (at 170.18 92.71 0) (size 17.78 3.81)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
+    (uuid a4a85d66-ef5a-4d3c-80a5-97bdf42a3519)
+  )
+  (text_box "In order to generate the required PWM_INVALID waveform, we'll use a multi-function gate. The output waveform is HIGH iff:\n - PWM MAX is LOW\n	-- or --\n - PWM MIN is HIGH\nAs such, an OR gate with a single inverting and non inverting input can accomplish this task"
+    (at 88.9 72.39 0) (size 58.42 19.05)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
+    (uuid a740ee38-b0d4-48e3-bcd1-771ebbde8de2)
+  )
+  (text_box "(B) non-inv input\n(C) inv input"
+    (at 109.22 109.22 0) (size 20.32 6.35)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
+    (uuid b1d0fe2a-f564-4d07-9ef8-5ff6b76dd42d)
+  )
+  (text_box "Jumpers in case I messed something up here"
+    (at 85.09 110.49 0) (size 16.51 10.16)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
+    (uuid b5ca79cf-db29-41ce-9eb9-d8e455ab2884)
+  )
+
+  (hierarchical_label "GND" (shape passive) (at 86.36 129.54 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0a145723-de54-4eff-a6b2-05067114a0ed)
+  )
+  (hierarchical_label "PWM_MAX" (shape input) (at 86.36 106.68 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1bcacc0b-8236-4771-9e70-e94d88556419)
+  )
+  (hierarchical_label "V_{REF}" (shape passive) (at 86.36 96.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 394f6ee3-57d5-49c7-8041-2bcce4389e29)
+  )
+  (hierarchical_label "PWM_MIN" (shape input) (at 86.36 101.6 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 99cc8f8e-dde5-4e0a-9118-aba3554eef3a)
+  )
+  (hierarchical_label "PWM_VOLTS" (shape output) (at 223.52 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f10abf24-96b2-45f6-9b2d-17e56d5f2779)
+  )
+
+  (symbol (lib_id "Custom-Resistor:RMCF0603FT1K50") (at 175.26 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 41871fe1-192a-4972-b0e2-b6f962adbb2d)
+    (property "Reference" "R16" (at 175.26 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1.5k" (at 175.26 104.14 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 175.514 100.584 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 175.26 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 175.26 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "RMCF0603FT1K50" (at 175.26 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c2594bd6-0d5b-4aa0-a522-d9064858d58d))
+    (pin "2" (uuid 5dddba53-bd66-4bf3-b775-65517537e3dc))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 95.25 106.68 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4e60910b-4224-42d8-8977-e77ce024a258)
+    (property "Reference" "R14" (at 90.17 105.41 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0R" (at 99.06 105.41 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 95.504 105.664 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 95.25 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 95.25 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "RMCF0603ZT0R00" (at 95.25 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6972f3d4-a424-4536-a884-5c8faf84487f))
+    (pin "2" (uuid 37493d4f-9f30-406f-9371-e63518185aeb))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 95.25 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 888a8d97-86b0-4828-b667-7a41e3a47cc4)
+    (property "Reference" "R13" (at 90.17 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0R" (at 99.06 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 95.504 100.584 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 95.25 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 95.25 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "RMCF0603ZT0R00" (at 95.25 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8dce3cfb-1b68-4f37-8b56-930de7afbe0c))
+    (pin "2" (uuid bee05685-8419-4826-97dd-c5c53cfc7222))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-LogicIC:1G97") (at 158.75 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8da2c685-e094-48f7-bb61-a10782fc723e)
+    (property "Reference" "U8" (at 158.75 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "74LVC1G97" (at 158.75 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" (at 158.75 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf" (at 158.75 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 158.75 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "74LVC1G97GW,125" (at 158.75 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8472240a-9e81-474d-a18f-13521fd56809))
+    (pin "2" (uuid 1c460750-9d33-4584-88e6-852258c1abf0))
+    (pin "3" (uuid c700a64f-6019-409b-b8c3-4ac3dd3da5c5))
+    (pin "4" (uuid a1cfc175-d819-4b03-b443-7f2516dc16f7))
+    (pin "5" (uuid f3552f47-8440-4c09-baea-fff183e72b31))
+    (pin "6" (uuid 274f557d-5e57-4791-8bce-f47ce49280fb))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "U8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-LogicIC:TestPoint") (at 189.23 100.33 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid ac4ca549-4693-409f-b7f1-c4fe5a531617)
+    (property "Reference" "TP?" (at 191.77 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "-" (at 189.23 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 189.23 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 189.23 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aca62b5d-f90d-41c7-8ae1-d2aed382fcbf))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/2ff51b31-5657-4917-8fb5-a3d70d5521ed"
+          (reference "TP?") (unit 1)
+        )
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "TP23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-Capacitor:CL10B104KB8NNWC") (at 132.08 120.65 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e569405a-8a04-4150-bfa2-3a906d93ea2f)
+    (property "Reference" "C12" (at 129.54 119.3863 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 129.54 121.9263 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 132.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do" (at 132.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 132.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "CL10B104KB8NNWC" (at 132.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 465fea9a-d441-4594-894e-655ac9f0a5ad))
+    (pin "2" (uuid 3f90e3f2-1da4-4be7-be40-c815f80b9838))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "C12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 105.41 120.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f8fb12cb-93d1-4b2f-9d31-8f9a9396116f)
+    (property "Reference" "R15" (at 107.95 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0R" (at 107.95 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 106.426 120.904 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 105.41 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 105.41 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "RMCF0603ZT0R00" (at 105.41 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c84db1f1-72fc-4e6c-83a0-ead058266a6e))
+    (pin "2" (uuid e3c7a4b0-10e9-4ffb-b085-3fb175f13c1e))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom-Capacitor:CL10B103KB8NNNC") (at 182.88 120.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fed5a615-9d5f-4e4c-80bd-a4cc83b54c02)
+    (property "Reference" "C13" (at 185.42 119.3863 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 185.42 121.9263 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 182.88 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do" (at 182.88 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 182.88 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "CL10B103KB8NNNC" (at 182.88 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f0ef5483-b607-445e-bfff-86aeebea2a2a))
+    (pin "2" (uuid 87050d70-1620-4292-80cd-68e68d459204))
+    (instances
+      (project "PWM Ramp Gen Prototype"
+        (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
+          (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+)
