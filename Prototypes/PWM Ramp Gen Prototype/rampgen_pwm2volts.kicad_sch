@@ -867,7 +867,7 @@
   (symbol (lib_id "Custom-Resistor:RMCF0603FT1K50") (at 175.26 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41871fe1-192a-4972-b0e2-b6f962adbb2d)
-    (property "Reference" "R16" (at 175.26 99.06 90)
+    (property "Reference" "R18" (at 175.26 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 175.26 104.14 90)
@@ -890,7 +890,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "R16") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -899,7 +899,7 @@
   (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 95.25 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e60910b-4224-42d8-8977-e77ce024a258)
-    (property "Reference" "R14" (at 90.17 105.41 90)
+    (property "Reference" "R16" (at 90.17 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 99.06 105.41 90)
@@ -922,7 +922,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -931,7 +931,7 @@
   (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 95.25 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 888a8d97-86b0-4828-b667-7a41e3a47cc4)
-    (property "Reference" "R13" (at 90.17 100.33 90)
+    (property "Reference" "R15" (at 90.17 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 99.06 100.33 90)
@@ -954,7 +954,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -963,7 +963,7 @@
   (symbol (lib_id "Custom-LogicIC:1G97") (at 158.75 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8da2c685-e094-48f7-bb61-a10782fc723e)
-    (property "Reference" "U8" (at 158.75 88.9 0)
+    (property "Reference" "U9" (at 158.75 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC1G97" (at 158.75 91.44 0)
@@ -990,7 +990,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "U8") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1018,7 +1018,7 @@
           (reference "TP?") (unit 1)
         )
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "TP23") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -1027,7 +1027,7 @@
   (symbol (lib_id "Custom-Capacitor:CL10B104KB8NNWC") (at 132.08 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e569405a-8a04-4150-bfa2-3a906d93ea2f)
-    (property "Reference" "C12" (at 129.54 119.3863 0)
+    (property "Reference" "C14" (at 129.54 119.3863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 129.54 121.9263 0)
@@ -1050,7 +1050,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1059,7 +1059,7 @@
   (symbol (lib_id "Custom-Resistor:RMCF0603ZT0R00") (at 105.41 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8fb12cb-93d1-4b2f-9d31-8f9a9396116f)
-    (property "Reference" "R15" (at 107.95 119.38 0)
+    (property "Reference" "R17" (at 107.95 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 107.95 121.92 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1091,7 +1091,7 @@
   (symbol (lib_id "Custom-Capacitor:CL10B103KB8NNNC") (at 182.88 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fed5a615-9d5f-4e4c-80bd-a4cc83b54c02)
-    (property "Reference" "C13" (at 185.42 119.3863 0)
+    (property "Reference" "C15" (at 185.42 119.3863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 185.42 121.9263 0)
@@ -1114,7 +1114,7 @@
     (instances
       (project "PWM Ramp Gen Prototype"
         (path "/a1dfcc81-abac-4d0f-af30-e0b6fd53034d/96805dea-d843-4551-a066-0332d83937cc"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )

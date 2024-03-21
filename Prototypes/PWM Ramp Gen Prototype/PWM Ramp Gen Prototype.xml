@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Dropbox (MIT)\Dropbox (MIT)\ishaan_meng_2023\03 - Hardware Design Prototypes\Analog-Shimamp-Hardware\Prototypes\PWM Ramp Gen Prototype\PWM Ramp Gen Prototype.kicad_sch</source>
+    <date>3/20/2024 7:01:07 PM</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PWM Ramp Gen Prototype.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_sqin.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_integrator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_pwm_comp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_pwm2volts.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_servo_amp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rampgen_supplies.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PWM Ramp Gen Prototype.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>926ce10c-ffec-4034-8906-ed4edeff9ddc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PWM Ramp Gen Prototype.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b03d269-d9dd-489d-988e-3a3c1558425d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PWM Ramp Gen Prototype.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24aac2e8-8257-4237-932c-014e835dc747</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>cc8fe57a-4767-4bb5-878b-df36e99a762b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>6529e506-df35-4a93-8a9d-e00b69892532</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A101JA16-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A101JA16D</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="GCM1885C2A101JA16D" description="100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GCM1885C2A101JA16D"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>49b3c20a-0f15-4578-a20b-3628899b8369</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>4929e728-3fed-4423-a498-4023351d3a1c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>bcc4920f-4ba0-4e12-aaf1-4413d7c16d3d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>6e5aa138-0080-4195-ac41-ad455305aad9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT120R" description="120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT120R"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>e252432b-e47b-4922-8c20-ddedff75a6fc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>-</datasheet>
+      <fields>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="JUMPER_DNP" description="0603 JUMPER DNP"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Part Number" value="-"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="0603 JUMPER DNP"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>da122661-f1e8-4eb7-a070-4a5abdcdaccd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT22R0</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT22R0" description="22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT22R0"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>452fa7ba-f9c6-4937-beab-1e57268159db</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>a3f3877c-cd2e-44f7-b695-7ac2ff02ea5f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HFBR-2521Z</value>
+      <footprint>Custom-IC:Broadcom_xFBR_RX</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-1501EN</datasheet>
+      <fields>
+        <field name="Manufacturer">Broadcom Limited</field>
+        <field name="Part Number">HFBR-2521Z</field>
+      </fields>
+      <libsource lib="Custom-Optoelectronic" part="HFBR-2521Z" description="Fiber Optic Receiver 5MBd -43dBm 4.75V ~ 5.25V 10 mA"/>
+      <property name="Manufacturer" value="Broadcom Limited"/>
+      <property name="Part Number" value="HFBR-2521Z"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="Fiber Optic Receiver 5MBd -43dBm 4.75V ~ 5.25V 10 mA"/>
+      <property name="ki_keywords" value="FIBER OPTIC RECEIVER 5MBD"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>18b7dc91-3d15-4613-91f7-af6a9172eb84</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AFBR-1528CZ</value>
+      <footprint>Custom-IC:Broadcom_xFBR_TX</footprint>
+      <datasheet>https://docs.broadcom.com/docs/pub-005757</datasheet>
+      <fields>
+        <field name="Manufacturer">Broadcom Limited</field>
+        <field name="Part Number">AFBR-1528CZ</field>
+      </fields>
+      <libsource lib="Custom-Optoelectronic" part="AFBR-1528CZ" description="Fiber Optic Transmitter 650nm 2.3V (Max) 30 mA Versatile Link"/>
+      <property name="Manufacturer" value="Broadcom Limited"/>
+      <property name="Part Number" value="AFBR-1528CZ"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="Fiber Optic Transmitter 650nm 2.3V (Max) 30 mA Versatile Link"/>
+      <property name="ki_keywords" value="XMITTER FIBER OPTIC 650NM"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>6a857e3a-77ac-4180-a01e-be8138c07d54</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74LVC1G97</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">74LVC1G97GW,125</field>
+      </fields>
+      <libsource lib="Custom-LogicIC" part="1G97" description="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="Manufacturer" value="Nexperia USA Inc."/>
+      <property name="Part Number" value="74LVC1G97GW,125"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="ki_keywords" value="IC GATE MULTIFUNCTION 6TSSOP"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>035cdaf7-3c82-4c5c-96d5-e4442884c870</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>74LVC1G97</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">74LVC1G97GW,125</field>
+      </fields>
+      <libsource lib="Custom-LogicIC" part="1G97" description="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="Manufacturer" value="Nexperia USA Inc."/>
+      <property name="Part Number" value="74LVC1G97GW,125"/>
+      <property name="Sheetname" value="Square Wave Input"/>
+      <property name="Sheetfile" value="rampgen_sqin.kicad_sch"/>
+      <property name="ki_description" value="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="ki_keywords" value="IC GATE MULTIFUNCTION 6TSSOP"/>
+      <sheetpath names="/Square Wave Input/" tstamps="/2ff51b31-5657-4917-8fb5-a3d70d5521ed/"/>
+      <tstamps>abf28ee9-5770-4565-8daa-8e0f7d55bc71</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B103KB8NNNC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B103KB8NNNC"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>5bacaba4-cf25-4a4c-8f6f-a8ae2b910702</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>d25f7c67-3936-4c17-a7f8-a5d044c9e584</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL10B102KB8NNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B102KB8NNNC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 1000PF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 1000PF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>7f10ecf2-f91b-42a7-8300-c731cd9ad832</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B103KB8NNNC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B103KB8NNNC"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>ae32eab6-dd57-4aa4-a986-3d92f519ec70</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B103KB8NNNC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B103KB8NNNC"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>789b74f0-38c1-444e-baa2-a5542e718f36</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A101JA16-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A101JA16D</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="GCM1885C2A101JA16D" description="100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GCM1885C2A101JA16D"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>ebb8c202-4381-4cb4-bee4-c7125cb00b43</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncf.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RNCF0603BTE1K00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RNCF0603BTE1K00" description="1 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RNCF0603BTE1K00"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="1 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>6d14760f-ff99-41f5-b125-87cbbbeb7cbb</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncf.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RNCF0603BTE1K00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RNCF0603BTE1K00" description="1 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RNCF0603BTE1K00"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="1 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>37723a16-627e-433f-8290-b9279a9de653</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT10K0</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT10K0" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT10K0"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>08f572dc-373b-4117-8fdb-5970eb2f1d29</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>cda1e1f6-e58d-4581-bcba-4403cfec6d61</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT10K0</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT10K0" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT10K0"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>e72b5610-1ad2-4af2-b571-96b2707a7dc6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT100K</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT100K" description="100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT100K"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>6a1d664c-4463-4ed4-8683-e3a119ab0162</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74LV1T04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lv1t04</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">SN74LV1T04DBVR</field>
+      </fields>
+      <libsource lib="Custom-LogicIC" part="SN74LV1T04" description="Inverter IC 1 Channel SOT-23-5"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Part Number" value="SN74LV1T04DBVR"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="Inverter IC 1 Channel SOT-23-5"/>
+      <property name="ki_keywords" value="IC INVERTER 1CH 1-INP SOT23-5"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>a41c1875-f172-4974-8cba-661b607fc200</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LT6230</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc.</field>
+        <field name="Part Number">LT6230CS6#TRPBF</field>
+      </fields>
+      <libsource lib="Custom-AnalogIC" part="LT6230" description="215 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6"/>
+      <property name="Manufacturer" value="Analog Devices Inc."/>
+      <property name="Part Number" value="LT6230CS6#TRPBF"/>
+      <property name="Sheetname" value="Integrator Ramp Generator"/>
+      <property name="Sheetfile" value="rampgen_integrator.kicad_sch"/>
+      <property name="ki_description" value="215 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6"/>
+      <property name="ki_keywords" value="opamp operational amplifier single"/>
+      <sheetpath names="/Integrator Ramp Generator/" tstamps="/aa727efc-b7b4-4033-98ce-c3f72125998c/"/>
+      <tstamps>916d7382-ccaa-49e5-a599-61cc2ea74bc3</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>c03034a4-02f7-4c5f-a032-3b96b66b483c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>8df49c69-3d0f-4a10-8680-f4cce03d5885</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>e7e95142-c635-4d28-97ca-082412c4bccf</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT4K70</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT4K70" description="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT4K70"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>4cf46119-e468-4b6a-8c06-00bb7ac272d4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>d17c8437-a830-4e86-b0df-41363d8fa2ef</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MAX9011EUT+T</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX9010-MAX9013.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Part Number">MAX9011EUT+T</field>
+      </fields>
+      <libsource lib="Custom-AnalogIC" part="MAX9011" description="Comparator with Latch TTL SOT-6"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Part Number" value="MAX9011EUT+T"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="Comparator with Latch TTL SOT-6"/>
+      <property name="ki_keywords" value="IC COMPARATOR 1 W/LATCH SOT6"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>6002304a-33b7-4477-bffc-b69ff17efc3f</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MAX9011EUT+T</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX9010-MAX9013.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Part Number">MAX9011EUT+T</field>
+      </fields>
+      <libsource lib="Custom-AnalogIC" part="MAX9011" description="Comparator with Latch TTL SOT-6"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Part Number" value="MAX9011EUT+T"/>
+      <property name="Sheetname" value="MinMax PWM Comparator"/>
+      <property name="Sheetfile" value="rampgen_pwm_comp.kicad_sch"/>
+      <property name="ki_description" value="Comparator with Latch TTL SOT-6"/>
+      <property name="ki_keywords" value="IC COMPARATOR 1 W/LATCH SOT6"/>
+      <sheetpath names="/MinMax PWM Comparator/" tstamps="/f61e0f34-ca28-4cd6-9cf5-9004e61b4706/"/>
+      <tstamps>3a379d37-7650-4879-8cb5-2852edc6e4c1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>e569405a-8a04-4150-bfa2-3a906d93ea2f</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B103KB8NNNC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B103KB8NNNC"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>fed5a615-9d5f-4e4c-80bd-a4cc83b54c02</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>888a8d97-86b0-4828-b667-7a41e3a47cc4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>4e60910b-4224-42d8-8977-e77ce024a258</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>f8fb12cb-93d1-4b2f-9d31-8f9a9396116f</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>41871fe1-192a-4972-b0e2-b6f962adbb2d</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>74LVC1G97</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">74LVC1G97GW,125</field>
+      </fields>
+      <libsource lib="Custom-LogicIC" part="1G97" description="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="Manufacturer" value="Nexperia USA Inc."/>
+      <property name="Part Number" value="74LVC1G97GW,125"/>
+      <property name="Sheetname" value="PWM to Voltage Converter"/>
+      <property name="Sheetfile" value="rampgen_pwm2volts.kicad_sch"/>
+      <property name="ki_description" value="Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP"/>
+      <property name="ki_keywords" value="IC GATE MULTIFUNCTION 6TSSOP"/>
+      <sheetpath names="/PWM to Voltage Converter/" tstamps="/96805dea-d843-4551-a066-0332d83937cc/"/>
+      <tstamps>8da2c685-e094-48f7-bb61-a10782fc723e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>8128591a-3252-427c-8ab4-3029aca8b86c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>b1657cef-34a3-4e06-bb06-f90c8d221a8d</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT4K70</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT4K70" description="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT4K70"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>fe19f46a-d345-478e-80f8-4078f919579a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1K50" description="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1K50"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>6d29fe5f-7a72-4a5e-b388-548b8635f8f8</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT10K0</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT10K0" description="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT10K0"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>be43e67a-66e5-4189-860a-9601fa55b275</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1M00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603FT1M00" description="1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603FT1M00"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>075f796e-7ac9-409d-a878-7e680dac170d</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>AD8601</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc.</field>
+        <field name="Part Number">AD8601WDRTZ-REEL7</field>
+      </fields>
+      <libsource lib="Custom-AnalogIC" part="AD8601" description="General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"/>
+      <property name="Manufacturer" value="Analog Devices Inc."/>
+      <property name="Part Number" value="AD8601WDRTZ-REEL7"/>
+      <property name="Sheetname" value="Servo Amplifier"/>
+      <property name="Sheetfile" value="rampgen_servo_amp.kicad_sch"/>
+      <property name="ki_description" value="General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"/>
+      <property name="ki_keywords" value="IC OPAMP GP 1 CIRCUIT SOT23-5"/>
+      <sheetpath names="/Servo Amplifier/" tstamps="/6c9b3ea8-1c14-4379-809f-08c548b884ed/"/>
+      <tstamps>8e6e2c0e-7e38-410c-a15b-d36f5eeb2176</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>e64d50a8-c51b-4082-9fab-2dac7dcf021f</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL32B226KAJNNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL32B226KAJNNNE</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL32B226KAJNNNE" description="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL32B226KAJNNNE"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>52b7ec78-339d-4bf9-af2d-32e2155a5f01</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL32B226KAJNNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL32B226KAJNNNE</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL32B226KAJNNNE" description="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL32B226KAJNNNE"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>1a99e788-020e-4d22-a268-7d4db9e70f62</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>52143ef6-8f50-491e-b926-8594a22009fa</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>9ba647c0-046f-4ecb-ac6b-7d8bf54eb00e</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>c590185f-ff0f-4847-8940-2d8a7296255f</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>bb626e25-7586-46be-8cab-0e279ce74078</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>e0d3221d-0284-40a2-abd8-7eff4fcb737c</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>a6512c92-9b8e-418b-b9a5-dfb0962cf05a</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL32B226KAJNNN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL32B226KAJNNNE</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL32B226KAJNNNE" description="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL32B226KAJNNNE"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>61c8be22-b274-4167-a383-6665491572f4</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>15c252f7-637f-495b-8b4d-8b3c36f1f5f1</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>38a43d56-f050-4553-8e67-7915d042dff9</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>12704f45-a08f-458a-be75-1a7a6a0f82d7</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>0356ada6-bca0-44f2-96bc-72fc907dea1d</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>a87c76a5-6c34-4df6-9543-0ab0dc1f3cf6</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>c9eea0ee-655d-41f4-ae1e-f0e5d23d0c03</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL10B104KB8NNWC" description="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL10B104KB8NNWC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>a71bfd7d-480b-4add-b882-632b981f93b2</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <libsource lib="Custom-Capacitor" part="CL21A475KLCLQNC" description="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Part Number" value="CL21A475KLCLQNC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>c2ba8bc1-f78f-433b-83c2-f50376d6f816</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>NSR0340HT1G</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">NSR0340HT1G</field>
+      </fields>
+      <libsource lib="Custom-Diode" part="NSR0340HT1G" description="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Part Number" value="NSR0340HT1G"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>99493865-a2c9-432c-89ff-1056f300a0b9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>NSR0340HT1G</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">NSR0340HT1G</field>
+      </fields>
+      <libsource lib="Custom-Diode" part="NSR0340HT1G" description="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Part Number" value="NSR0340HT1G"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>0ca3ae2c-0501-48f2-ac32-f3af130adce9</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>NSR0340HT1G</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">NSR0340HT1G</field>
+      </fields>
+      <libsource lib="Custom-Diode" part="NSR0340HT1G" description="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Part Number" value="NSR0340HT1G"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>a38a24ca-dac2-4b7b-a89b-05aec27aef5f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>NSR0340HT1G</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">NSR0340HT1G</field>
+      </fields>
+      <libsource lib="Custom-Diode" part="NSR0340HT1G" description="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Part Number" value="NSR0340HT1G"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Diode Schottky 40 V 250mA Surface Mount SOD-323"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>939213e7-54f7-40d9-b03d-76ed28886d74</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>b4057d77-752d-491a-a927-94221e7d9311</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>DNP</value>
+      <footprint>Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>-</datasheet>
+      <fields>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="JUMPER_DNP" description="0603 JUMPER DNP"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0603 JUMPER DNP"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>dcc1ff40-c9f9-4e19-9e9a-f606ba5dbfd7</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>250m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-csr_csrn.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">CSR1206FKR250</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="CSR1206FKR250" description="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="CSR1206FKR250"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>418adb25-5516-46ab-a377-5691dd0c7d26</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>250m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-csr_csrn.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">CSR1206FKR250</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="CSR1206FKR250" description="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="CSR1206FKR250"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>27fd72af-bc77-4d19-a38c-7d184c9e305e</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>DNP</value>
+      <footprint>Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>-</datasheet>
+      <fields>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="JUMPER_DNP" description="0603 JUMPER DNP"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0603 JUMPER DNP"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>b24eb76e-9bef-4ec6-a8c6-27153b94ba15</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>0652d160-616b-474c-b216-1ac424e251c3</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>250m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-csr_csrn.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">CSR1206FKR250</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="CSR1206FKR250" description="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="CSR1206FKR250"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>fe743aae-4e58-4f59-9292-7c41f43f3108</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>DNP</value>
+      <footprint>Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>-</datasheet>
+      <fields>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="JUMPER_DNP" description="0603 JUMPER DNP"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0603 JUMPER DNP"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>586162e2-f3f8-450d-9836-b4ec3dfe974d</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>a9b37e97-574a-42d0-a12e-a37d124191ca</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>DNP</value>
+      <footprint>Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>-</datasheet>
+      <fields>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="JUMPER_DNP" description="0603 JUMPER DNP"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0603 JUMPER DNP"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>d454bfd8-e73d-4729-a38e-fd7a1f2aab7e</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom-Resistor" part="RMCF0603ZT0R00" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="ki_keywords" value="R res resistor jumper"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>465e5f91-e90d-436b-882e-de6799bbb7c8</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>BD50FC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Part Number">BD50FC0FP-E2</field>
+      </fields>
+      <libsource lib="Custom-PowerIC" part="BD50FC0FP-E2" description="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 5.0V"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Part Number" value="BD50FC0FP-E2"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 5.0V"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive 5.0V"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>ebbb5440-1c87-4868-a33b-f91488e68fc8</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BD50FC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Part Number">BD50FC0FP-E2</field>
+      </fields>
+      <libsource lib="Custom-PowerIC" part="BD50FC0FP-E2" description="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 5.0V"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Part Number" value="BD50FC0FP-E2"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 5.0V"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive 5.0V"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>0371b90a-79ab-4475-9aee-8adf4b4ed484</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>BD33FC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Part Number">BD33FC0FP-E2</field>
+      </fields>
+      <libsource lib="Custom-PowerIC" part="BD33FC0FP-E2" description="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 3.3V"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Part Number" value="BD33FC0FP-E2"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 3.3V"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive 3.3V"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>0e06a68b-cd36-4b7c-8476-329bfc934b4c</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>REF3433TIDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ref3425.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">REF3433TIDBVR</field>
+      </fields>
+      <libsource lib="Custom-AnalogIC" part="REF3433" description="Series Voltage Reference IC Fixed 3.3V V ±0.05% 10 mA SOT-23-6"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Part Number" value="REF3433TIDBVR"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="rampgen_supplies.kicad_sch"/>
+      <property name="ki_description" value="Series Voltage Reference IC Fixed 3.3V V ±0.05% 10 mA SOT-23-6"/>
+      <property name="ki_keywords" value="IC VREF SERIES 3.3V 0.05% SOT23"/>
+      <sheetpath names="/Power Supplies/" tstamps="/b8b72259-d728-4031-a6ca-1d2890130764/"/>
+      <tstamps>4ef13f58-c0a2-4e1c-b155-016203274416</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-AnalogIC" part="AD8601">
+      <description>General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8601</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf</field>
+        <field name="Manufacturer">Analog Devices Inc.</field>
+        <field name="Part Number">AD8601WDRTZ-REEL7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="~{SHDN}" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-AnalogIC" part="LT6230">
+      <description>215 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf</docs>
+      <footprints>
+        <fp>TSOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6230</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf</field>
+        <field name="Manufacturer">Analog Devices Inc.</field>
+        <field name="Part Number">LT6230CS6#TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="~{ENABLE}" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-AnalogIC" part="MAX9011">
+      <description>Comparator with Latch TTL SOT-6</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX9010-MAX9013.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX9011EUT+T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX9010-MAX9013.pdf</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Part Number">MAX9011EUT+T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="LATCH" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-AnalogIC" part="REF3433">
+      <description>Series Voltage Reference IC Fixed 3.3V V ±0.05% 10 mA SOT-23-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ref3425.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REF3433TIDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ref3425.pdf</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">REF3433TIDBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GNDs" type="input"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="OUTs" type="input"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="CL10B102KB8NNNC">
+      <description>SAMSUNG ELECTRO-MECHANICS CAP CER 1000PF 50V X7R 0603</description>
+      <docs>https://product.samsungsem.com/mlcc/CL10B102KB8NNN.do</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1n</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://product.samsungsem.com/mlcc/CL10B102KB8NNN.do</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B102KB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="CL10B103KB8NNNC">
+      <description>SAMSUNG ELECTRO-MECHANICS CAP CER 10000PF 50V X7R 0603</description>
+      <docs>https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10n</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://product.samsungsem.com/mlcc/CL10B103KB8NNN.do</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B103KB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="CL10B104KB8NNWC">
+      <description>SAMSUNG ELECTRO-MECHANICS CAP CER 0.1UF 50V X7R 0603</description>
+      <docs>https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://product.samsungsem.com/mlcc/CL31B106KAHNFN.do</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10B104KB8NNWC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="CL21A475KLCLQNC">
+      <description>SAMSUNG ELECTRO-MECHANICS 4.7 µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7u</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KLCLQNC_Spec.pdf</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL21A475KLCLQNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="CL32B226KAJNNNE">
+      <description>SAMSUNG ELECTRO-MECHANICS CAP CER 22UF 25V X7R 1210</description>
+      <docs>https://product.samsungsem.com/mlcc/CL32B226KAJNNN.do</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22u</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.samsungsem.com/mlcc/CL32B226KAJNNN.do</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL32B226KAJNNNE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Capacitor" part="GCM1885C2A101JA16D">
+      <description>100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A101JA16-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100p</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A101JA16-01.pdf</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A101JA16D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Diode" part="NSR0340HT1G">
+      <description>Diode Schottky 40 V 250mA Surface Mount SOD-323</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NSR0340HT1G</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/nsr0340h-d.pdf</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">NSR0340HT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-LogicIC" part="1G97">
+      <description>Configurable Multiple Function Configurable 1 Circuit 3 Input 6-TSSOP</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G97</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">74LVC1G97GW,125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="A" type="input"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="V_{DD}" type="power_in"/>
+        <pin num="6" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-LogicIC" part="SN74LV1T04">
+      <description>Inverter IC 1 Channel SOT-23-5</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lv1t04</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LV1T04</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5_HandSoldering</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lv1t04</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">SN74LV1T04DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-LogicIC" part="TestPoint">
+      <description>Generic Test Point Symbol </description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">-</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Optoelectronic" part="AFBR-1528CZ">
+      <description>Fiber Optic Transmitter 650nm 2.3V (Max) 30 mA Versatile Link</description>
+      <docs>https://docs.broadcom.com/docs/pub-005757</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AFBR-1528CZ</field>
+        <field name="Footprint">Custom-IC:Broadcom_xFBR_TX</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/pub-005757</field>
+        <field name="Manufacturer">Broadcom Limited</field>
+        <field name="Part Number">AFBR-1528CZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V_{CC}/ANODE" type="power_in"/>
+        <pin num="2" name="NC/CATHODE" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IN/NC" type="input"/>
+        <pin num="5" name="MNT" type="passive"/>
+        <pin num="6" name="MNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Optoelectronic" part="HFBR-2521Z">
+      <description>Fiber Optic Receiver 5MBd -43dBm 4.75V ~ 5.25V 10 mA</description>
+      <docs>https://docs.broadcom.com/docs/AV02-1501EN</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HFBR-2521Z</field>
+        <field name="Footprint">Custom-IC:Broadcom_xFBR_RX</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-1501EN</field>
+        <field name="Manufacturer">Broadcom Limited</field>
+        <field name="Part Number">HFBR-2521Z</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT(OC/TTL)" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="V_{CC}" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="MNT" type="passive"/>
+        <pin num="6" name="MNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-PowerIC" part="BD33FC0FP-E2">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 3.3V</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BD33FC0FP-E2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Part Number">BD33FC0FP-E2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-PowerIC" part="BD50FC0FP-E2">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A TO-252 5.0V</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BD50FC0FP-E2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Part Number">BD50FC0FP-E2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="CSR1206FKR250">
+      <description>250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-csr_csrn.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">250m</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-csr_csrn.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">CSR1206FKR250</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="JUMPER_DNP">
+      <description>0603 JUMPER DNP</description>
+      <docs>-</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">DNP</field>
+        <field name="Footprint">Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT100K">
+      <description>100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT100K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT10K0">
+      <description>10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT10K0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT120R">
+      <description>120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">120R</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT120R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT1K50">
+      <description>1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.5k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1K50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT1M00">
+      <description>1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1M</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT1M00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT22R0">
+      <description>22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">22R</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT22R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603FT4K70">
+      <description>4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603FT4K70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RMCF0603ZT0R00">
+      <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0R</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom-Resistor" part="RNCF0603BTE1K00">
+      <description>1 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rncf.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k 0.1%</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rncf.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RNCF0603BTE1K00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Custom-AnalogIC">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-AnalogIC.kicad_sym</uri>
+    </library>
+    <library logical="Custom-Capacitor">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-Capacitor.kicad_sym</uri>
+    </library>
+    <library logical="Custom-Diode">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-Diode.kicad_sym</uri>
+    </library>
+    <library logical="Custom-LogicIC">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-LogicIC.kicad_sym</uri>
+    </library>
+    <library logical="Custom-Optoelectronic">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-Optoelectronic.kicad_sym</uri>
+    </library>
+    <library logical="Custom-PowerIC">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-PowerIC.kicad_sym</uri>
+    </library>
+    <library logical="Custom-Resistor">
+      <uri>D:\Documents\KiCad Libraries\KICAD_7/Custom-Resistor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U13" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="V_{CC}" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U13" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="V_{CC}/ANODE" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
+    </net>
+    <net code="3" name="/+5V_ANA">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U6" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="6" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="4" name="/Integrator Ramp Generator/SQUARE">
+      <node ref="U3" pin="4" pinfunction="Y" pintype="output"/>
+      <node ref="U5" pin="2" pintype="input"/>
+    </net>
+    <net code="5" name="/Integrator Ramp Generator/V_{SERVO}">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="output"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="6" name="/PWM to Voltage Converter/PWM_VOLTS">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/PWM_MAX">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="output"/>
+    </net>
+    <net code="8" name="/PWM_MIN">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="output"/>
+    </net>
+    <net code="9" name="/RAMP">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="10" name="/SQUARE_IN">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="11" name="/Square Wave Input/LED">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="NC/CATHODE" pintype="passive"/>
+    </net>
+    <net code="12" name="/Square Wave Input/TTL">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IN/NC" pintype="input"/>
+    </net>
+    <net code="13" name="/Square Wave Input/Y">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="14" name="/V_{IN}">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="2" pinfunction="GNDs" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="A" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="C" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="A" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="C" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D2-K)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="24" name="Net-(D3-K)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(U1-OUT(OC{slash}TTL))">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT(OC/TTL)" pintype="open_collector"/>
+      <node ref="U3" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U6B-~{ENABLE})">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U7A-+)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U7B-LATCH)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="LATCH" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U8A-+)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U8B-LATCH)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="LATCH" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U9-A)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U9-B)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U9-C)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U9-Y)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U10A-+)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U10A--)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U10B-~{SHDN})">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="~{SHDN}" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U14-VDD)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="39" name="V_{REF}">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="OUTs" pintype="input"/>
+      <node ref="U14" pin="6" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U9" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
+    </net>
+    <net code="40" name="unconnected-(U1-MNT-Pad5)">
+      <node ref="U1" pin="5" pinfunction="MNT" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-MNT-Pad6)">
+      <node ref="U1" pin="6" pinfunction="MNT" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-NC-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-MNT-Pad5)">
+      <node ref="U2" pin="5" pinfunction="MNT" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U2-MNT-Pad6)">
+      <node ref="U2" pin="6" pinfunction="MNT" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
