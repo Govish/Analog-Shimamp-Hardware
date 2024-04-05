@@ -1,31 +1,31 @@
-"#","Reference","Qty","Value","Footprint","DNP","Manufacturer","Part Number"
-"1","C1, C2, C4, C5, C7, C12, C13, C14, C16, C17, C18, C23, C28, C30, C32, C34","16","100n","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","Samsung Electro-Mechanics","CL10B104KB8NNWC"
-"2","C3, C11","2","100p","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","Murata Electronics","GCM1885C2A101JA16D"
-"3","C6, C9, C10, C15","4","10n","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","Samsung Electro-Mechanics","CL10B103KB8NNNC"
-"4","C8","1","1n","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","Samsung Electro-Mechanics","CL10B102KB8NNNC"
-"5","C19, C20, C27","3","22u","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","","Samsung Electro-Mechanics","CL32B226KAJNNNE"
-"6","C21, C22, C24, C25, C26, C29, C31, C33, C35","9","4.7u","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","","Samsung Electro-Mechanics","CL21A475KLCLQNC"
-"7","D1, D2, D3, D4","4","NSR0340HT1G","Diode_SMD:D_SOD-323_HandSoldering","","onsemi","NSR0340HT1G"
-"8","J1, J2","2","Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","","",""
-"9","J3","1","Conn_01x10","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","","",""
-"10","R1, R5, R9, R12, R14, R18, R20","7","1.5k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT1K50"
-"11","R2","1","120R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT120R"
-"12","R3, R24, R27, R30, R32","5","DNP","Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","-","-"
-"13","R4","1","22R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT22R0"
-"14","R6, R7","2","1k 0.1%","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RNCF0603BTE1K00"
-"15","R8, R10, R21","3","10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT10K0"
-"16","R11","1","100k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT100K"
-"17","R13, R19","2","4.7k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT4K70"
-"18","R15, R16, R17, R23, R28, R31, R33","7","0R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603ZT0R00"
-"19","R22","1","1M","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","Stackpole Electronics Inc","RMCF0603FT1M00"
-"20","R25, R26, R29","3","250m","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","","Stackpole Electronics Inc","CSR1206FKR250"
-"21","U1","1","HFBR-2521Z","Custom-IC:Broadcom_xFBR_RX","","Broadcom Limited","HFBR-2521Z"
-"22","U2","1","AFBR-1528CZ","Custom-IC:Broadcom_xFBR_TX","","Broadcom Limited","AFBR-1528CZ"
-"23","U3, U4, U9","3","74LVC1G97","Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering","","Nexperia USA Inc.","74LVC1G97GW,125"
-"24","U5","1","74LV1T04","Package_TO_SOT_SMD:SOT-23-5_HandSoldering","","Texas Instruments","SN74LV1T04DBVR"
-"25","U6","1","LT6230","Package_TO_SOT_SMD:TSOT-23-6","","Analog Devices Inc.","LT6230CS6#TRPBF"
-"26","U7, U8","2","MAX9011EUT+T","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","","Analog Devices Inc./Maxim Integrated","MAX9011EUT+T"
-"27","U10","1","AD8601","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","","Analog Devices Inc.","AD8601WDRTZ-REEL7"
-"28","U11, U12","2","BD50FC0FP-E2","Package_TO_SOT_SMD:TO-252-2","","Rohm Semiconductor","BD50FC0FP-E2"
-"29","U13","1","BD33FC0FP-E2","Package_TO_SOT_SMD:TO-252-2","","Rohm Semiconductor","BD33FC0FP-E2"
-"30","U14","1","REF3433TIDBVR","Package_TO_SOT_SMD:SOT-23-6","","Texas Instruments","REF3433TIDBVR"
+#,Reference,Qty,Qty 10,Value,Footprint,DNP,Manufacturer,Part Number
+1,"C1, C2, C4, C5, C7, C12, C13, C14, C16, C17, C18, C23, C28, C30, C32, C34",16,160,100n,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Samsung Electro-Mechanics,CL10B104KB8NNWC
+2,"C3, C11",2,20,100p,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Murata Electronics,GCM1885C2A101JA16D
+3,"C6, C9, C10, C15",4,40,10n,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Samsung Electro-Mechanics,CL10B103KB8NNNC
+4,C8,1,10,1n,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Samsung Electro-Mechanics,CL10B102KB8NNNC
+5,"C19, C20, C27",3,30,22u,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,,Samsung Electro-Mechanics,CL32B226KAJNNNE
+6,"C21, C22, C24, C25, C26, C29, C31, C33, C35",9,90,4.7u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,Samsung Electro-Mechanics,CL21A475KLCLQNC
+7,"D1, D2, D3, D4",4,40,NSR0340HT1G,Diode_SMD:D_SOD-323_HandSoldering,,onsemi,NSR0340HT1G
+8,"J1, J2",2,20,Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,,
+9,J3,1,10,Conn_01x10,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,,,
+10,"R1, R5, R9, R12, R14, R18, R20",7,70,1.5k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT1K50
+11,R2,1,10,120R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT120R
+12,"R3, R24, R27, R30, R32",5,50,DNP,Custom-RLC:DNP_R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,-,-
+13,R4,1,10,22R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT22R0
+14,"R6, R7",2,20,1k 0.1%,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RNCF0603BTE1K00
+15,"R8, R10, R21",3,30,10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT10K0
+16,R11,1,10,100k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT100K
+17,"R13, R19",2,20,4.7k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT4K70
+18,"R15, R16, R17, R23, R28, R31, R33",7,70,0R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603ZT0R00
+19,R22,1,10,1M,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Stackpole Electronics Inc,RMCF0603FT1M00
+20,"R25, R26, R29",3,30,250m,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,Stackpole Electronics Inc,CSR1206FKR250
+21,U1,1,10,HFBR-2521Z,Custom-IC:Broadcom_xFBR_RX,,Broadcom Limited,HFBR-2521Z
+22,U2,1,10,AFBR-1528CZ,Custom-IC:Broadcom_xFBR_TX,,Broadcom Limited,AFBR-1528CZ
+23,"U3, U4, U9",3,30,74LVC1G97,Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering,,Nexperia USA Inc.,"74LVC1G97GW,125"
+24,U5,1,10,74LV1T04,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,,Texas Instruments,SN74LV1T04DBVR
+25,U6,1,10,LT6230,Package_TO_SOT_SMD:TSOT-23-6,,Analog Devices Inc.,LT6230CS6#TRPBF
+26,"U7, U8",2,20,MAX9011EUT+T,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,,Analog Devices Inc./Maxim Integrated,MAX9011EUT+T
+27,U10,1,10,AD8601,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,,Analog Devices Inc.,AD8601WDRTZ-REEL7
+28,"U11, U12",2,20,BD50FC0FP-E2,Package_TO_SOT_SMD:TO-252-2,,Rohm Semiconductor,BD50FC0FP-E2
+29,U13,1,10,BD33FC0FP-E2,Package_TO_SOT_SMD:TO-252-2,,Rohm Semiconductor,BD33FC0FP-E2
+30,U14,1,10,REF3433TIDBVR,Package_TO_SOT_SMD:SOT-23-6,,Texas Instruments,REF3433TIDBVR
